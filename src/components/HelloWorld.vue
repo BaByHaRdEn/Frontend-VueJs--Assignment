@@ -33,7 +33,6 @@ methods:{
     })
     .then(post=>{
       localStorage.setItem('apiData', JSON.stringify(post))
-      console.log(post)
     })
     .catch(error=>{
       console.error(error)
