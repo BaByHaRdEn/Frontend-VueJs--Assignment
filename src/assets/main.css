@@ -7,6 +7,9 @@
 
   font-weight: normal;
 }
+#app img{
+width: 40%;
+}
 
 a,
 .green {
