@@ -172,6 +172,11 @@ setup() {
       chartOptions,
     };
   },
+  watch:{
+    fetchData(){
+      this.chartOptions
+    }
+  }
 
 
 };
